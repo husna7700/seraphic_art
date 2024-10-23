@@ -1,0 +1,44 @@
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    background: rgb(116, 82, 82);
+}
+.container{
+    width: 100vw;
+    height: 90vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.imgcontainer{
+    width: 150vw;
+    height: 100vh;
+    position: absolute;
+    left: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 1s;
+}
+.slide_div{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 30px 0 30px;
+}
+.img:hover{
+    height:500px ;
+    width:400px ;
+    transition: 1s;
+}
+.img{
+    position: relative;
+    height: 370px;
+    width: 240px;
+    transition: 0.7s;
+    border-radius: 20px;
+}
+
+
